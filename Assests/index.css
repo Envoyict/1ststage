@@ -50,13 +50,8 @@ img {
   height: 200px;
   border-radius: 50%;
   border: 2px solid #40068d;
-  margin: 5%;
-
+  margin: 40px;
 }
-
-
-
-
 
 .links a:hover {
   margin: 5px 0;
@@ -80,9 +75,9 @@ img {
 
 section {
   display: flex;
-justify-items: center;
+  justify-items: center;
   align-items: center;
-  gap:70px
+  gap: 70px;
 }
 
 .line {
@@ -94,7 +89,7 @@ justify-items: center;
 .year1,
 .year2 {
   text-align: left;
-margin: 20px;
+  margin: 20px;
   padding: 2px;
 }
 
@@ -113,20 +108,20 @@ margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0px
+    gap: 0px;
   }
-  .line{
+  .line {
     display: none;
   }
   .year1,
-.year2 {
-  text-align: left;
-margin: 10px;
-  padding: 2px;
-}
+  .year2 {
+    text-align: left;
+    margin: 10px;
+    padding: 2px;
+  }
 
-.links a{
-    margin:0px;
+  .links a {
+    margin: 0px;
     padding: 12px;
-}
+  }
 }
