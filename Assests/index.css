@@ -116,12 +116,12 @@ section {
   .year1,
   .year2 {
     text-align: left;
-    margin: 10px;
+    margin: 0px;
     padding: 2px;
   }
 
   .links a {
-    margin: 0px;
-    padding: 12px;
+   padding: 10px;
+    margin: 2px;
   }
 }
